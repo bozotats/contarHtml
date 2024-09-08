@@ -1,3 +1,3 @@
-public class contarFormatter {
+public class ContarFormatter {
     
 }
