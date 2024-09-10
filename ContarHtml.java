@@ -8,8 +8,14 @@ import java.io.IOException;
 public class ContarHtml {
     private static final Logger LOGGER = Logger.getLogger(ContarHtml.class.getName());
 
-    public static void main(String[] args) {
-        
+    public static void main(String[] args) throws IOException{
+        if (args.length != 2) {
+            System.out.println("Uso: java ContarHtml direccion-archivo palabra-clave");
+            return;
+        }
+
+        FileHandler archivo = new FileHandler("file-" + args[1] + ".log");
+
     }
 
 }
