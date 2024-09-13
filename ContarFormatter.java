@@ -5,6 +5,6 @@ public class ContarFormatter extends Formatter {
     
     @Override
     public String format(LogRecord record) {
-        return record.getMessage() + "\n";
+        return record.getMessage() + " \n";
     }
 }

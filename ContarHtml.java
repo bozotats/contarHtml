@@ -13,7 +13,8 @@ public class ContarHtml {
             System.out.println("Uso: java ContarHtml direccion-archivo palabra-clave");
             return;
         }
-
+        Handler cHandler = new ConsoleHandler();
+        cHandler.setFormatter(new ContarFormatter());
         FileHandler archivo = new FileHandler("file-" + args[1] + ".log");
 
     }
