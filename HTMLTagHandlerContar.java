@@ -6,7 +6,6 @@ import java.util.logging.Logger;
 public class HTMLTagHandlerContar extends HTMLEditorKit.ParserCallback {
     
     private boolean inParagraph;
-    private int contador;
 
     @Override
     public void handleText(char[] data, int pos) {
