@@ -16,6 +16,12 @@ public class ContarHtml {
         Handler cHandler = new ConsoleHandler();
         cHandler.setFormatter(new ContarFormatter());
         FileHandler archivo = new FileHandler("file-" + args[1] + ".log");
+        ContarFormatter contForm = new ContarFormatter();
+        archivo.setFormatter(contForm);
+
+        LOGGER.addHandler(archivo);
+        LOGGER.setLevel(Level.ALL);
+        LOGGER.fine("hola mundo");
 
     }
 
