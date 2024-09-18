@@ -7,10 +7,10 @@ al ejecutar el programa, se crea un archivo .log con las posiciones en donde ini
 #### Ejemplo del Comando:
 el primer argumento es el path de un archivo, y el segundo la palabra clave, como los siguientes ejemplos.
 ```
-$ java ContarHtml direccion-archivo palabra-clave
+java ContarHtml direccion-archivo palabra-clave
 ```
 
 ```
-$ java ContarHtml hypertext.html carros
+java ContarHtml hypertext.html carros
 ```
 
