@@ -7,4 +7,5 @@ public class ContarFormatter extends Formatter {
     public String format(LogRecord record) {
         return record.getMessage() + " \n";
     }
+    
 }
